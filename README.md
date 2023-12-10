@@ -1,5 +1,5 @@
 Description:
-This mod makes the AI Engineers stop practically ontop of fuses in grade instead of 20 meters away. It also reduces the distance that a new fuse will replace an existing fuse.
+This mod makes the AI Engineers stop practically ontop of fuses in grade instead of 20 meters away.
 
 Installation:
 1) Install the latest version of BepInEx
