@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace BetterConductor
 {
     [BepInPlugin(modGUID, modName, modVersion)]
-    public class BetterConductor: BaseUnityPlugin
+    public class BetterConductor : BaseUnityPlugin
     {
         private const string modGUID = "Erabior.BetterConductor";
 

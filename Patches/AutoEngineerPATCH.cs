@@ -1,5 +1,4 @@
-﻿using Game;
-using HarmonyLib;
+﻿using HarmonyLib;
 using Model.AI;
 using System;
 using System.Collections.Generic;
@@ -21,15 +20,4 @@ namespace BetterConductor.Patches
             }
         }
     }
-
-    [HarmonyPatch(typeof(FlareManager), "NearbyFlares")]
-    internal class FlareRadiusPATCH
-    {
-        [HarmonyPostfix]
-        static void ReduceRadius(ref float radius)
-        {
-            radius = 10f; 
-        }
-    }
-
 }
